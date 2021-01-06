@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    
+}   
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+    border: solid 1px white;
+    border-color: black;
+    text-align: center;
+    height: 120px;
+    color: white;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 100%;
+    border: solid 1px black;
+    color: white;
+    
+}
+
+
+section {
+    border: solid 1px white;
+    
+}
+.top-left {
+    background-image: url(https://www.escapefromtarkov.com/themes/eft/images/eft_logo_promo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.medium-left-top {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    align-items: center;
+    display: flex;
+    }
+.medium-left-bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    align-items: center;
+    display: flex;
+
+}
+
+.baby-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medium-right {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.top-right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(https://www.escapefromtarkov.com/themes/eft/images/bs_logo.png);
+    
+}
